@@ -11,12 +11,17 @@
             div#id-div{
                 background-color:yellow;
             }
+          
+            li.my-list{
+                background-color:orange;
+            }
+          
         </style>
     </head>
     <body>
         <header>
             
-            <h1 class="page-header">CSS Selectors by NAME HERE</h1>
+            <h1 class="page-header">CSS Selectors by Svitlana Slonska</h1>
             
         <nav>
             <ul>
@@ -43,6 +48,27 @@
             <div id="id-div">Inside my-div</div>
         </fieldset>
 
+                <fieldset>
+            <legend><a id="class">class</a></legend>
+            <p>ids can be applied to only one item on a page</p>
+            <p>Class can be apply more than one item on a page</p>
+            <pre><code>class="my-list"</code></pre>
+            <p>Here's how the CSS is applied to the element:</p>
+            <pre><code>li.my-list{
+    background-color:orange;
+}</code></pre>
+
+
+            <p>Here's what it looks like:</p>
+            <div>
+              <ul>
+                <li class="my-list">I'm in an li with a class named my-list</li>
+                <li class="my-list">I'm in an li with a class named my-list</li>
+                <li class="my-list">I'm in an li with a class named my-list</li>
+              </ul>
+            </div>
+        </fieldset>
+      
         <footer class="page-footer">
             <p><small>&copy; 2023 by 
                 NAME HERE, All Rights Reserved ~ 
